@@ -5,7 +5,7 @@ NOTE: The code here is still being edited for clarity.
 
 
 ## System Requirements
-This code requires python 3. It requires several standard python packages such as numpy, scipy, pickle, itertools, random, seaborn, matplotlib, sklearn, math, time, mpl_toolkits, and copy. 
+This code was written for python 3.7. It may need to be modified to run on other versions of python. It also requires several standard python packages such as numpy, scipy, pickle, itertools, random, seaborn, matplotlib, sklearn, math, time, mpl_toolkits, and copy. 
 
 The real world experiments require Matlab engine (https://au.mathworks.com/help/matlab/matlab-engine-for-python.html) and Keras (https://keras.io/). Keras itself requires TensorFlow, CNTK, or Theano. The rest of the code does not require these so it can be run without them by removing any imports of real_experiment_function.py.
 
