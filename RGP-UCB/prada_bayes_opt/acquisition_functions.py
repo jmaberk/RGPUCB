@@ -108,7 +108,7 @@ class AcquisitionFunction(object):
         var[var<1e-10]=0 #prevents negative variances obtained through comp errors
         mean=np.atleast_2d(mean).T
         var=np.atleast_2d(var).T  
-        beta=2*np.log(np.power(len(gp.Y),self.dim/2+2)*np.square(math.pi)/(3*self.delta))
+        beta=2*np.log(np.power(len(gp.Y),self.dim/2)+2*np.square(math.pi)/(3*self.delta))
         #print("beta={}".format(beta))
         return mean +  np.sqrt(beta)* np.sqrt(var)
 
